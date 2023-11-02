@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Contactos</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='stylepage.css'>
+</head>
+
+<body>
+    <div>
+        <ul>
+            <li><a href="./PaginaPrincipal.html">Home</a></li>
+            <li><a href="./AboutUs.html">About Us</a></li>
+            <li><a href="./Products.html">Products</a></li>
+            <li>
+                <a id="contactos" href="./Contacts.html">Contact</a>
+                <ul id="sub">
+                    <li>
+                        <a href="./Location.html">Location</a>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="./News.html">News</a></li>
+        </ul>
+        <h1 id="title">Contacts</h1>
+    </div>
+    <p>Have a question for us? Submit down below <br>
+        and we'll get back to you as soon as we can.</p>
+    <div class="form">
+        <form action="http://vip.groupehn.com:20003/html/infospost.php" method="post">
+            <label for="firstname">Name:</label>
+            <input type="text" id="firstname" name="firstname" required>
+
+            <label for="lastname">Surname:</label>
+            <input type="text" id="lastname" name="lastname" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Questions:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <select class="yourclass" name="country" id="country">
+                <option value="Portugal">Portugal</option>
+                <option value="France">France</option>
+                <option value="Spain">Spain</option>
+                <option value="UK">UK</option>
+                <option value="Hungary">Hungary</option>
+            </select>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <!-- <input class="yourclass" id="lastname" type="text" name="lastname" />
+    <input class="yourclass" id="firstname" type="text" name="firstname" />
+    <input class="yourclass" id="mail" type="email" name="email" placeholder="yourmail@yahoo.com" />
+    <textarea class="yourclass" name="request" id="request" cols="66" rows="10"></textarea>
+    <select class="yourclass" name="country" id="country"> -->
+
+    <hr>
+    <pre>Copyright2023</pre>
+</body>
+
+</html>
